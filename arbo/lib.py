@@ -1,7 +1,7 @@
 import os
 from pathlib import Path
 def create_arbo():
-    name = input('Name of your project ? ')
+    name = input('Please enter the name of your project : ')
     os.mkdir(name)
     os.mkdir(f'{name}/{name}')
     Path(f'{name}/{name}/lib.py').touch()
