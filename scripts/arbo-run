@@ -1,0 +1,7 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+import os
+from cheatsheet.lib import create_arbo
+from pathlib import Path
+
+create_arbo()
